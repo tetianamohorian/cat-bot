@@ -19,7 +19,7 @@ The game aims to create an engaging experience with a sense of progression.
 - Install Required Libraries: Use the command
     ````c
     pip install telegrambots-spring-boot-starter
-    ````
+    ```` 
 
 - Run and compile the program using the command: Press the green arrow 
     ![Photo 1](photo.jpg)
