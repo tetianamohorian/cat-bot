@@ -52,10 +52,6 @@ CatBot is a Telegram bot written in Java using the Telegram Bot API. It can resp
 - Handling user commands and media
 - Reading and sending images
 
-## 📸 Screenshots
-
-_Add examples of the bot in action or chat interface._
-
 ## 📚 License
 
 This project is open-source and available under the MIT License.
