@@ -1,50 +1,65 @@
-# Telegram Bot
-### 1.  Description
+# 🐱 CatBot — Telegram Bot in Java
 
-Purpose:
+CatBot is a Telegram bot written in Java using the Telegram Bot API. It can respond to commands, interact with users, and send step-by-step images.
 
-- This Telegram bot offers a text-based adventure game with interactive elements.
-Players navigate through various scenarios, making choices that lead to different outcomes and accumulate "glories."
-The game aims to create an engaging experience with a sense of progression.
+## ✨ Features
 
-- Key Features:
-    * Guided storyline presented through text and images.
-    * Asynchronous communication for seamless interactions.
-    * Callback queries for handling button choices.
-    * Glory-based scoring system to track player progress.
+- Java implementation using Maven
+- Handles user commands
+- Sends step-by-step images
+- Clean project structure with separated logic
+- Easy to adapt for other bots
 
+## 🛠️ Tech Stack
 
-### 2. How to translate and run the program ?
+- Java 8+
+- Maven
+- Telegram Bot API
+- Telegram Java SDK (e.g., org.telegram.telegrambots)
 
-- Install Required Libraries: Use the command
-    ````c
-    pip install telegrambots-spring-boot-starter
-    ```` 
+## 📁 Project Structure
 
-- Run and compile the program using the command: Press the green arrow 
-    ![Photo 1](photo.jpg)
+```
+├── TelegramBot/
+│   ├── src/main/java/ua/javarush/
+│   │   ├── MyFirstTelegramBot.java      # Main bot class
+│   │   ├── TelegramBotContent.java      # Content logic
+│   │   └── TelegramBotUtils.java        # Utility functions
+│   ├── images/                          # Step-by-step illustrations
+│   ├── pom.xml                          # Maven configuration
+├── README.md                            # Project documentation
+```
 
+## 🚀 How to Run
 
-### 3. How the program is programmed?
+1. **Clone the repository and build the project**:
+   ```bash
+   mvn clean package
+   ```
 
-- Libraries:
-    * telegrambots-spring-boot-starter: Facilitates Telegram Bot API interactions within a Spring Boot application.
+2. **Run the bot** (make sure to insert your own token):
+   ```bash
+   java -jar target/TelegramBot.jar
+   ```
 
-- Key Programming Concepts:
+> The bot requires a Telegram Token. Get one from [@BotFather](https://t.me/BotFather)
 
-    * Asynchronous message handling for responsiveness.
-    * Callback query processing for handling button clicks.
-    * State management to maintain player progress (glories).
-    * Content separation for text and images for better organization.
+## 💡 Skills Demonstrated
 
+- Working with Telegram Bot API
+- Designing structured bots
+- Using Maven and Java
+- Handling user commands and media
+- Reading and sending images
 
-### 4. Links to source code and websites that were used in the solution
+## 📸 Screenshots
 
--   [Telegram Bot API]( https://core.telegram.org/)
-   
--   [Telegram Bots for Spring Boot](https://github.com/rubenlagus/TelegramBots)
+_Add examples of the bot in action or chat interface._
 
--   [Java](https://www.oracle.com/java/)
+## 📚 License
 
+This project is open-source and available under the MIT License.
 
+## 👨‍💻 Author
 
+Made with 🐾 by [Your Name] — aspiring Java developer.
