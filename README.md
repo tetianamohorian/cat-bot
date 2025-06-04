@@ -62,4 +62,4 @@ This project is open-source and available under the MIT License.
 
 ## 👨‍💻 Author
 
-Made with 🐾 by [Your Name] — aspiring Java developer.
+Made with 🐾 by [Tetiana] — aspiring Java developer.
